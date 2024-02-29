@@ -125,3 +125,28 @@
     background-color: white;
     color: #068b17;
 }
+
+/* responsive */
+
+@media(max-width:450px){
+
+    #main-container{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    #form-container,
+    #address-container{
+        flex: 1 1 100%;
+     }
+
+    #form-container
+    {
+        order: -1;
+        padding: 20px;
+    }
+
+
+
+}
