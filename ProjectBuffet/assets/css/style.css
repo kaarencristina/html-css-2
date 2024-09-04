@@ -250,3 +250,17 @@ header{
     color: #FF8C00;
     font-size: 3rem;
 }
+
+.section-photos{
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center ;
+}
+
+.section-photo{
+    width: 280px;
+}
