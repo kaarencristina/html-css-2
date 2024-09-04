@@ -264,3 +264,24 @@ header{
 .section-photo{
     width: 280px;
 }
+
+.section-photoarea{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-photoarea img{
+    width: inherit;
+    height: inherit;
+}
+
+.section-photoinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
