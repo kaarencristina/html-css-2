@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background-color:#000;
+}
+.header{
+    max-width: 1140px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: #Fff;
+   font-size: 3.5rem;
+}
+
+.menu{
+    flex:1;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+}
